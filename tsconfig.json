@@ -1,5 +1,9 @@
 {
   "extends": "@tsconfig/node16/tsconfig.json",
-  "compilerOptions": {},
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
   "exclude": ["node_modules"]
 }
